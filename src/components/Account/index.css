@@ -1,0 +1,76 @@
+.account-bg {
+  height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-heading {
+  color: #131313;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.account-hr {
+  background-color: #cbd5e1;
+  color: #cbd5e1;
+  width: 100%;
+}
+
+.account-stats-container {
+  display: flex;
+  width: 100%;
+}
+
+.account-stats-heading {
+  color: #94a3b8;
+  font-weight: 600;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  margin-right: 50px;
+  width: 130px;
+}
+
+.account-stats-value {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.account-password {
+  color: #64748b;
+}
+
+.account-premium-type {
+  border: 1px solid #1e293b;
+  border-radius: 3px;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.logout-btn {
+  margin: 30px auto;
+  height: 40px;
+  width: 91px;
+  border: none;
+  outline: none;
+  background: #e50914;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .account-bg {
+    padding: 100px 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .account-bg {
+    padding: 100px;
+  }
+}

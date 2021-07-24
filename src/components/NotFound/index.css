@@ -1,0 +1,70 @@
+.not-found-bg {
+  margin-top: 50px;
+  background-image: url('./not_found_small.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.not-found-heading {
+  font-family: HK Grotesk;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.not-found-desc {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  color: #fff;
+}
+
+.go-to-home-btn {
+  height: 48px;
+  width: 135px;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #171f46;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.error-code-container {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.error-code-heading {
+  font-family: HK Grotesk;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.error-code-value {
+  font-family: HK Grotesk;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .not-found-bg {
+    background-image: url('./not_found_large.png');
+    margin-top: 90px;
+  }
+}

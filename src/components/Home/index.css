@@ -1,0 +1,43 @@
+.home-bg {
+  background: #131313;
+}
+
+.main-movie-container {
+  background-size: cover;
+  height: 50vh;
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.main-movie-container h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-family: Roboto;
+}
+
+.main-movie-container p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: HK Grotesk;
+}
+
+.main-movie-container button {
+  height: 40px;
+  width: 74px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-family: Roboto;
+}
+
+@media (min-width: 768px) {
+  .main-movie-container {
+    height: 100vh;
+    background-size: cover;
+  }
+}

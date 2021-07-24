@@ -1,0 +1,146 @@
+.header-container {
+  background: rgba(19, 19, 19, 0.4);
+  height: fit-content;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-inner-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-right: 15px;
+}
+
+.menu-container a {
+  font-size: 16px;
+  font-family: HK Grotesk;
+}
+
+.close-menu-btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.menu-close-icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+.movies-logo-header {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.nav-items {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font: HK Grotesk;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 100px;
+}
+
+.search-icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-profile {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.add-to-queue {
+  cursor: pointer;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  height: 30px;
+  width: 180px;
+  margin-right: 20px;
+}
+
+.search-input-container input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 80%;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.active-class {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .nav-items {
+    display: none;
+  }
+  .user-profile {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    padding: 20px 50px;
+    height: 90px;
+  }
+  .movies-logo-header {
+    width: 135px;
+    height: 39px;
+  }
+  .add-to-queue {
+    display: none;
+  }
+  .menu-container {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-container {
+    padding: 20px 100px;
+    height: 90px;
+  }
+}

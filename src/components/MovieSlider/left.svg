@@ -1,0 +1,12 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Navigation / chevron left">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="7" width="8" height="12">
+<g id="Icon Mask">
+<path id="Round" d="M15 7.43897C14.8132 7.25172 14.5595 7.14648 14.295 7.14648C14.0305 7.14648 13.7769 7.25172 13.59 7.43897L9.00002 12.029C8.61002 12.419 8.61002 13.049 9.00002 13.439L13.59 18.029C13.98 18.419 14.61 18.419 15 18.029C15.39 17.639 15.39 17.009 15 16.619L11.12 12.729L15 8.84897C15.39 8.45897 15.38 7.81897 15 7.43897Z" fill="#0F172A"/>
+</g>
+</mask>
+<g mask="url(#mask0)">
+<rect id="Color Fill" y="0.734375" width="24" height="24" fill="#475569"/>
+</g>
+</g>
+</svg>

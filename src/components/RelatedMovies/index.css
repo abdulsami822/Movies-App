@@ -1,0 +1,47 @@
+.related-movie-image {
+  height: 100px;
+  width: 120px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.related-movies-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.related-movies-heading {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 24px;
+}
+
+.related-images-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 576px) {
+  .related-movie-image {
+    height: 120px;
+    width: 170px;
+    margin: 0px 30px 30px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .related-movies-heading {
+    font-size: 28px;
+  }
+  .related-movie-image {
+    height: 150px;
+    width: 200px;
+    margin: 0px 30px 30px 0px;
+  }
+}

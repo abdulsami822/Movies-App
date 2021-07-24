@@ -1,0 +1,109 @@
+.popular-movie-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 4px;
+}
+
+.popular-bg {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px 20px 20px;
+  min-height: 100vh;
+}
+
+.popular-movies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.popular-inner-movies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pagination-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination-btn {
+  background: none;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  height: 24px;
+  width: 24px;
+}
+
+.pagination-btn i {
+  color: #fff;
+  font-size: 15px;
+}
+
+.left-pagination {
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.right-pagination {
+  border-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.pagination-stats {
+  font-family: Bree Serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 440px) {
+  .popular-movie-img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .popular-movie-img {
+    width: 100px;
+    height: 80px;
+    margin: 0px 10px 8px 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .popular-movie-img {
+    width: 120px;
+    height: 100px;
+    margin: 0px 10px 8px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .popular-movie-img {
+    width: 150px;
+    height: 120px;
+    margin: 0px 10px 8px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .popular-movie-img {
+    width: 225px;
+    height: 170px;
+    margin: 0px 15px 10px 0px;
+  }
+}

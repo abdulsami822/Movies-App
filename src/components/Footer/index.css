@@ -1,0 +1,28 @@
+.footer-container {
+  margin: 50px auto 20px auto;
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-icon-container i {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer-contact {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  line-height: 20px;
+  align-self: center;
+}
